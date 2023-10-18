@@ -1,0 +1,60 @@
+.singlePost{
+    flex: 9;
+    margin-top: 60px;
+    
+}
+
+.singlePostWraper{
+    padding: 10px;
+    padding-right: 0px;
+
+}
+.singlePostImg{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.singlePostTitle{
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.singlePostEdit{
+    float: right;
+    font-size: 24px;
+
+}
+.singlePostIcon{
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.singlePostIcon:first-child{
+color: teal;
+}
+.singlePostIcon:last-child{
+    color: tomato;
+}
+.singlePostInfo{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #b39656;
+   font-family: 'Courier New', Courier, monospace;
+
+}
+.singlePostDesc{
+    line-height: 30px;
+    color: #9c9595;
+}
+
+.singlePostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
